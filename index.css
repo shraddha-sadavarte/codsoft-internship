@@ -1,0 +1,119 @@
+.first{
+    background: linear-gradient(rgb(242, 205, 212), rgb(220, 143, 156));
+}
+
+.first-div{
+    padding: 0.3%;
+    padding-left: 5%;
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.li{
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.menu{
+    margin-left: 50px;
+    font-size: 20px;
+    font: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(10, 11, 10);
+}
+
+.menu:hover{
+    color: rgb(78, 3, 15);
+    font-size: 22px;
+}
+
+
+.pf{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second-div{
+    height: auto;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-inner-div{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4vh;
+    padding-left: 5%;
+}
+
+.explore{
+    background-color: pink;
+    border-radius: 10px;
+    padding: 2vh;
+    border: none;
+    width: 300px;
+    box-shadow: 2px 2px 2px 4px rgb(246, 169, 182);
+}
+
+.explore:hover{
+    cursor: pointer;
+    background-color: rgb(227, 132, 164);
+    box-shadow: 2px 2px 2px 4px rgb(215, 101, 139);
+    font-size: 15px;
+}
+
+ .second-inner-div2 img{
+    height: 70vh;
+    width: 80vh;
+    border-radius: 20px;
+ }
+
+.second-div p{
+    line-height: 4vh;
+}
+
+.work{
+    background-color: white;
+    padding: 3%;
+}
+
+.work h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50vh;
+    padding: 20px;
+}
+
+.card img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.card p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: rgb(242, 236, 237);
+    border-radius: 10px;
+}
