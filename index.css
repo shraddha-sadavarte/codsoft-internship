@@ -117,3 +117,70 @@
     background-color: rgb(242, 236, 237);
     border-radius: 10px;
 }
+
+.press{
+    background-color: rgb(237, 235, 235);
+    padding: 2%;
+    box-shadow: 2px 2px 3px 3px rgb(149, 147, 147);
+}
+
+.press h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    text-align: center;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+
+.nb{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 20vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nb img{
+    margin: auto;
+    border-radius: 50%;
+}
+
+.nb .para{
+    margin-top: -10px;
+}
+
+#about{
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.story{
+    width: 40vw;
+    margin: auto;
+    word-spacing: 8px;
+}
+
+.view{
+    padding: 10px;
+    color: white;
+    background-color: pink;
+    border: none;
+    font: bold;
+    width: 150px;
+}
+
+.view:hover{
+    cursor: pointer;
+    background-color: rgb(247, 179, 190);
+    padding: 10px;
+    box-shadow: 2px 2px 2px 3px rgb(215, 155, 165);
+}
