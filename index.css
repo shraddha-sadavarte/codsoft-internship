@@ -184,3 +184,130 @@
     padding: 10px;
     box-shadow: 2px 2px 2px 3px rgb(215, 155, 165);
 }
+
+#contact{
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(247, 235, 237);
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.owner{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(222, 211, 211);
+    flex-direction: column;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.owner-img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.form{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+input,textarea{
+    outline: none;
+}
+
+h1{
+    margin-top: 0;
+    font-weight: 500;
+}
+
+form{
+    position: relative;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.form-left-decoration, .form-right-decoration{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.form-left-decoration{
+    bottom: 60px;
+    left: -30px;
+}
+
+.form-right-decoration::before,
+.form-right-decoration:after,
+.form-left-decoration::before,
+.form-left-decoration::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+}
+
+.form-left-decoration::before{
+    top: -20px;
+}
+
+.form-left-decoration::after{
+    top: 20px;
+    left: 10px;
+}
+
+.form-right-decoration:before {
+    top: -20px;
+    right: 0;
+    }
+    .form-right-decoration:after {
+    top: 20px;
+    right: 10px;
+    }
+    .form-inner {
+    padding: 40px;
+    }
+    .form-inner input,
+    .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+    }
+    .form-inner textarea {
+    resize: none;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid pink;
+    background: rgb(242, 166, 178); 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button:hover {
+    background: rgb(223, 169, 178);
+    border-bottom: 4px solid rgb(224, 186, 193);
+    } 
